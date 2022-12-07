@@ -1,4 +1,4 @@
-//Exersice2
+//Exercise2
 
 const massMark = 78;//kg
 const heightMark = 1.69;//m

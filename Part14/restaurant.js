@@ -49,4 +49,4 @@ const restaurant = {
   },
 };
 
-export { restaurant, weekdays };
+export { restaurant, weekdays, openingHours };

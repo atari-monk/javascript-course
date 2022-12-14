@@ -11,6 +11,11 @@ samples["optional-chaining"] = {
   script: "optional-chaining.js",
   title: 'Part 14 - Optional Chaining'
 };
+samples["looping-objs"] = {
+  page: "sample.html",
+  script: "looping-objs.js",
+  title: 'Part 14 - Looping Objects'
+};
 
 const encodeGetParams = (p) =>
   Object.entries(p)

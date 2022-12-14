@@ -5,6 +5,11 @@ samples["for-of"] = {
   page: "sample.html",
   script: "for-of.js",
   title: 'Part 14 - For of loop'
+}; 
+samples["optional-chaining"] = {
+  page: "sample.html",
+  script: "optional-chaining.js",
+  title: 'Part 14 - Optional Chaining'
 };
 
 const encodeGetParams = (p) =>

@@ -1,30 +1,26 @@
 'use strict'
 
 import {restaurant} from './restaurant.js';
+import { getWithNoComma, getPause, getCode } from './tool.js';
 
-const content1El = document.getElementById('content-1');
-const content2El = document.getElementById('content-2');
-const content3El = document.getElementById('content-3');
-
-let content1 = '<strong>Full menu: </strong>';
-let content2 = '<strong>Full menu: </strong>';
-let content3 = '<strong>Full menu: </strong>';
+const contentEl = document.getElementById('content');
 
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
+let content = `${getCode('for (const item of menu)')}${getPause()}`;
 for (const item of menu) 
-  content1 += `${item}, `;
+  content += `${item}, `;
+content = getWithNoComma(content);
 
+content += `<br>${getCode('for (const [i, el] of menu.entries())')}${getPause()}`;
 for (const [i, el] of menu.entries()) {
-  content2 += ` ${i + 1}: ${el}`;
+  content += ` ${i + 1}: ${el}`;
 }
 
-content1El.innerHTML = getWithNoComma(content1);
-content2El.innerHTML = content2;
-content3El.innerHTML = content3 + [...menu.entries()];
+content += `<br>${getCode('menu.entries().next().value')}${getPause()}`;
+content += menu.entries().next().value;
 
-function getWithNoComma(str) {
-  let text = str.trim();
-  text = text.endsWith(',') ? text.slice(0, -1) : text;
-  return text;
-}
+content += `<br>${getCode('[...menu.entries()]')}${getPause()}`;
+content += [...menu.entries()];
+
+contentEl.innerHTML = content;

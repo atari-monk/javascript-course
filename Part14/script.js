@@ -26,6 +26,11 @@ samples["sets"] = {
   script: "sets.js",
   title: 'Part 14 - Sets'
 };
+samples["maps"] = {
+  page: "sample.html",
+  script: "maps.js",
+  title: 'Part 14 - Maps'
+};
 
 const encodeGetParams = (p) =>
   Object.entries(p)

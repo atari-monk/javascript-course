@@ -1,11 +1,9 @@
 'use strict'
 
-import { restaurant, weekdays } from './restaurant.js';
 import { getPause, getCode } from './tool.js';
-
-const contentEl = document.getElementById('content');
 
 let content = `${getCode('')}${getPause()}`;
 content += '';
 
+const contentEl = document.getElementById('content');
 contentEl.innerHTML = content;

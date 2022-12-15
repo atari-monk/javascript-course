@@ -16,6 +16,11 @@ samples["looping-objs"] = {
   script: "looping-objs.js",
   title: 'Part 14 - Looping Objects'
 };
+samples["game-challenge2"] = {
+  page: "sample.html",
+  script: "game-challenge2.js",
+  title: 'Part 14 - Coding Challenge Soccer #2'
+};
 
 const encodeGetParams = (p) =>
   Object.entries(p)

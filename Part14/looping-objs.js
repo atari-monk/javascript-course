@@ -3,8 +3,6 @@
 import { openingHours } from './restaurant.js';
 import { getPause, getCode } from './tool.js';
 
-const contentEl = document.getElementById('content');
-
 let content = `${getCode('Object.keys(openingHours);')}${getPause()}`;
 const properties = Object.keys(openingHours);
 content += properties;
@@ -34,4 +32,5 @@ for (const [day, { open, close }] of entries) {
 }
 content += '<br>';
 
+const contentEl = document.getElementById('content');
 contentEl.innerHTML = content;

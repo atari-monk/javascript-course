@@ -3,8 +3,6 @@
 import { restaurant, weekdays } from './restaurant.js';
 import { getPause, getCode } from './tool.js';
 
-const contentEl = document.getElementById('content');
-
 //Problem of undefined exceptions when not checked in if's like this
 if (restaurant.openingHours && restaurant.openingHours.mon)
   console.log(restaurant.openingHours.mon.open);
@@ -34,4 +32,5 @@ const users2 = [];
 content += `<br>${getCode("users2[0]?.name ?? 'User array empty';")}${getPause()}`;
 content += users2[0]?.name ?? 'User array empty';
 
+const contentEl = document.getElementById('content');
 contentEl.innerHTML = content;

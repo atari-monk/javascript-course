@@ -21,6 +21,11 @@ samples["game-challenge2"] = {
   script: "game-challenge2.js",
   title: 'Part 14 - Coding Challenge Soccer #2'
 };
+samples["sets"] = {
+  page: "sample.html",
+  script: "sets.js",
+  title: 'Part 14 - Sets'
+};
 
 const encodeGetParams = (p) =>
   Object.entries(p)

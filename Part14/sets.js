@@ -1,6 +1,6 @@
 'use strict'
 
-import { getWithNoComma, getPause, getCode } from './tool.js';
+import { getWithNoComma, getPause, getCode } from '../tool.js';
 
 let content = `${getCode('Set')}${getPause()}`;
 const orders = new Set([

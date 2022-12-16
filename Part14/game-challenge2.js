@@ -1,7 +1,7 @@
 'use strict'
 
 import { game } from './game.js';
-import { getPause, getCode, getWithNoComma } from './tool.js';
+import { getPause, getCode, getWithNoComma } from '../tool.js';
 
 //1. Loop over the game.scored array and print each player name to the console, along with the goal number(Example: "Goal 1: Lewandowski")
 let content = `${getCode('1. Goals')}${getPause()}`;

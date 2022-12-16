@@ -1,7 +1,7 @@
 'use strict'
 
 import { openingHours } from './restaurant.js';
-import { getPause, getCode, getWithNoComma } from './tool.js';
+import { getPause, getCode, getWithNoComma } from '../tool.js';
 
 let content = `${getCode('Map.set().set().set()')}${getPause()}can be chained since it returns map.<br>`;
 const rest = new Map();

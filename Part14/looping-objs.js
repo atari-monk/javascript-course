@@ -1,7 +1,7 @@
 'use strict'
 
 import { openingHours } from './restaurant.js';
-import { getPause, getCode } from './tool.js';
+import { getPause, getCode } from '../tool.js';
 
 let content = `${getCode('Object.keys(openingHours);')}${getPause()}`;
 const properties = Object.keys(openingHours);

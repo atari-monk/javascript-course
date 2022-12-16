@@ -1,7 +1,7 @@
 'use strict'
 
 import {restaurant} from './restaurant.js';
-import { getWithNoComma, getPause, getCode } from './tool.js';
+import { getWithNoComma, getPause, getCode } from '../tool.js';
 
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 

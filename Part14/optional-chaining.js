@@ -1,7 +1,7 @@
 'use strict'
 
 import { restaurant, weekdays } from './restaurant.js';
-import { getPause, getCode } from './tool.js';
+import { getPause, getCode } from '../tool.js';
 
 //Problem of undefined exceptions when not checked in if's like this
 if (restaurant.openingHours && restaurant.openingHours.mon)

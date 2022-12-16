@@ -8,6 +8,11 @@ samples["game-challenge3"] = {
   script: "game-challenge3.js",
   title: 'Part 15 - Coding Challenge Soccer #3'
 }; 
+samples["strings"] = {
+  page: "sample.html",
+  script: "strings.js",
+  title: 'Part 15 - Strings'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

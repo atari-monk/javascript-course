@@ -3,10 +3,10 @@
 import { onClick } from '../tool.js';
 
 const samples = [];
-samples["data-structure"] = {
+samples["game-challenge3"] = {
   page: "sample.html",
-  script: "data-structure.js",
-  title: 'Part 15 - Data Structures Summary'
+  script: "game-challenge3.js",
+  title: 'Part 15 - Coding Challenge Soccer #3'
 }; 
 
 window.samples = samples;

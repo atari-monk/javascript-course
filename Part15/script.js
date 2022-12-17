@@ -13,6 +13,11 @@ samples["strings"] = {
   script: "strings.js",
   title: 'Part 15 - Strings'
 }; 
+samples["exercise"] = {
+  page: "exercise.html",
+  script: "exercise.js",
+  title: 'Part 15 - Exercise'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

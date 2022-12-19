@@ -3,10 +3,10 @@
 import { onClick } from '../tool.js';
 
 const samples = [];
-samples["x"] = {
+samples["default-parameters"] = {
   page: "sample.html",
-  script: "x.js",
-  title: 'Part 16 - X'
+  script: "default-parameters.js",
+  title: 'Part 16 - Default Parameters'
 }; 
 
 window.samples = samples;

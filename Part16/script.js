@@ -23,6 +23,16 @@ samples["func-as-out"] = {
   script: "func-as-out.js",
   title: 'Part 16 - Functions returning functions'
 }; 
+samples["call-and-apply"] = {
+  page: "sample.html",
+  script: "call-and-apply.js",
+  title: 'Part 16 - The Call and Apply Methods'
+}; 
+samples["bind-method"] = {
+  page: "sample.html",
+  script: "bind-method.js",
+  title: 'Part 16 - The bind Method'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

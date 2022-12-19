@@ -18,6 +18,11 @@ samples["func-as-arg"] = {
   script: "func-as-arg.js",
   title: 'Part 16 - Functions accepting callback functions'
 }; 
+samples["func-as-out"] = {
+  page: "sample.html",
+  script: "func-as-out.js",
+  title: 'Part 16 - Functions returning functions'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

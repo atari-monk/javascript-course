@@ -18,6 +18,11 @@ samples["exercise"] = {
   script: "exercise.js",
   title: 'Part 15 - Exercise'
 }; 
+samples["exercise-b"] = {
+  page: "sample.html",
+  script: "exercise-b.js",
+  title: 'Part 15 - Exercise B'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

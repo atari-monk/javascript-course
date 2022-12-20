@@ -33,6 +33,21 @@ samples["bind-method"] = {
   script: "bind-method.js",
   title: 'Part 16 - The bind Method'
 }; 
+samples["challenge-1"] = {
+  page: "sample.html",
+  script: "challenge-1.js",
+  title: 'Vid 17 - Challenge-1'
+}; 
+samples["iife"] = {
+  page: "sample.html",
+  script: "iife.js",
+  title: 'Vid 17 - Immediately Invoked Function Expressions (IIFE)'
+}; 
+samples["closures"] = {
+  page: "sample.html",
+  script: "closures.js",
+  title: 'Vid 17 - Closures'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

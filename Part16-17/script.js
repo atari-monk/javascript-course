@@ -63,6 +63,16 @@ samples["map-set-foreach"] = {
   script: "map-set-foreach.js",
   title: 'Vid 18 - Map, Set ForEach'
 }; 
+samples["v18-challenge-1"] = {
+  page: "sample2.html",
+  script: "v18-challenge-1.js",
+  title: 'Vid 18, Challenge-1'
+}; 
+samples["map-method"] = {
+  page: "sample2.html",
+  script: "map-method.js",
+  title: 'Vid 18, Map Method'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

@@ -48,6 +48,21 @@ samples["closures"] = {
   script: "closures.js",
   title: 'Vid 17 - Closures'
 }; 
+samples["arrays"] = {
+  page: "sample.html",
+  script: "arrays.js",
+  title: 'Vid 18 - Arrays'
+}; 
+samples["arrays-foreach"] = {
+  page: "sample2.html",
+  script: "arrays-foreach.js",
+  title: 'Vid 18 - Arrays ForEach'
+}; 
+samples["map-set-foreach"] = {
+  page: "sample2.html",
+  script: "map-set-foreach.js",
+  title: 'Vid 18 - Map, Set ForEach'
+}; 
 
 window.samples = samples;
 window.onClick = onClick;

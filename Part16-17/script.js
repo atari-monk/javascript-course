@@ -72,7 +72,12 @@ samples["map-method"] = {
   page: "sample2.html",
   script: "map-method.js",
   title: 'Vid 18, Map Method'
-}; 
+};
+samples["filter-method"] = {
+  page: "sample2.html",
+  script: "filter-method.js",
+  title: 'Vid 18, Filter Method'
+};
 
 window.samples = samples;
 window.onClick = onClick;

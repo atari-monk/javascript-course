@@ -25,3 +25,7 @@ const max = movements.reduce((acc, mov) => {
   else return mov;
 }, movements[0]);
 console.log(max);
+
+const max2 = movements.reduce((acc, mov) => 
+  acc > mov ? acc : mov, movements[0]);
+console.log(max2);

@@ -148,8 +148,17 @@ vid19["chaining-methods"] = {
   title: 'Chaining Methods',
   vid: '19',
   start: '31',
-  end: '31',
-  time: '0'
+  end: '39',
+  time: '8'
+};
+vid19["bankist-3"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 3',
+  vid: '19',
+  start: '39',
+  end: 'x',
+  time: 'x'
 };
 vid19["v19-challenge-2"] = {
   page: "sample2.html",
@@ -189,7 +198,8 @@ const vid19Keys = [
   'bankist-2',
   'reduce-method-2',
   's2-challenge-2',
-  'chaining-methods'
+  'chaining-methods',
+  'bankist-3'
 ];
 
 console.log(Object.keys(vid19));

@@ -29,4 +29,11 @@ function onClick(sample) {
   window.open(url, '_blank');
 }
 
-export { getWithNoComma, getPause, getCode, onClick };
+const varToStr = varObj => Object.keys(varObj)[0];
+
+const logVar = function(varObj) {
+  const key = varToStr(varObj);
+  console.log(`${key} : ${varObj[key]}`);
+}
+
+export { getWithNoComma, getPause, getCode, onClick, logVar };

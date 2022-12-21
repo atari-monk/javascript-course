@@ -108,7 +108,7 @@ samples["filter-method"] = {
 const vid19 = []; 
 vid19["reduce-method"] = {
   page: "sample2.html",
-  script: "reduce-method.js",
+  script: "../V19/reduce-method.js",
   title: 'Reduce Method',
   vid: '19',
   start: '0',
@@ -126,7 +126,7 @@ vid19["bankist-2"] = {
 };
 vid19["reduce-method-2"] = {
   page: "sample2.html",
-  script: "reduce-method.js",
+  script: "../V19/reduce-method.js",
   title: 'Reduce Method, Max',
   vid: '19',
   start: '14',
@@ -135,7 +135,7 @@ vid19["reduce-method-2"] = {
 };
 vid19["s2-challenge-2"] = {
   page: "sample2.html",
-  script: "v19-challenge-1.js",
+  script: "../V19/s2-challenge-2.js",
   title: 'Challenge #2',
   vid: '19',
   start: '21',
@@ -144,7 +144,7 @@ vid19["s2-challenge-2"] = {
 };
 vid19["chaining-methods"] = {
   page: "sample2.html",
-  script: "chaining-methods.js",
+  script: "../V19/chaining-methods.js",
   title: 'Chaining Methods',
   vid: '19',
   start: '31',

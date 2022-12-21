@@ -45,6 +45,10 @@ h2 {
     text-align: left;
 }
 
+li.sample-item:not(:last-child) { 
+   margin-bottom: 10px;  
+}
+
 table,
 th,
 td {

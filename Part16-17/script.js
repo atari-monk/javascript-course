@@ -78,6 +78,31 @@ samples["filter-method"] = {
   script: "filter-method.js",
   title: 'Vid 18, Filter Method'
 };
+samples["reduce-method"] = {
+  page: "sample2.html",
+  script: "reduce-method.js",
+  title: 'Vid 19, Reduce Method'
+};
+samples["v19-challenge-1"] = {
+  page: "sample2.html",
+  script: "v19-challenge-1.js",
+  title: 'Vid 19, Challenge 1'
+};
+samples["chaining-methods"] = {
+  page: "sample2.html",
+  script: "chaining-methods.js",
+  title: 'Vid 19, Chaining Methods'
+};
+samples["v19-challenge-2"] = {
+  page: "sample2.html",
+  script: "v19-challenge-2.js",
+  title: 'Vid 19, Challenge 2'
+};
+samples["find-method"] = {
+  page: "sample2.html",
+  script: "find-method.js",
+  title: 'Vid 19, Find Method'
+};
 
 window.samples = samples;
 window.onClick = onClick;

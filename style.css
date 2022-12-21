@@ -34,6 +34,17 @@ h2 {
     text-align: center;
 }
 
+.sample-container {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+
+.sample-list {
+    display: inline-block;
+    text-align: left;
+}
+
 table,
 th,
 td {

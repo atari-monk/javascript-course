@@ -1,6 +1,6 @@
 'use strict'
 
-import { logVar } from "../tool.js";
+import { logVar } from "../Index/tool.js";
 import { movements, accounts } from "./data.js"
 
 // The find Method

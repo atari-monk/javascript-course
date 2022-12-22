@@ -1,6 +1,6 @@
 'use strict'
 
-import { logVar } from "../tool.js";
+import { logVar } from "../Index/tool.js";
 
 /* 
 Let's go back to Julia and Kate's study about dogs. This time, they want to convert dog ages to human ages and calculate the average age of the dogs in their study.

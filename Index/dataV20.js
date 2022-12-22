@@ -16,17 +16,18 @@ vid20["bankist-5"] = {
   title: 'Bankist App 5, Transfers',
   vid: '20',
   start: '25',
-  end: 'x',
-  time: 'x'
+  end: '45',
+  time: '20'
 };
-vid20["x"] = {
-  page: "./Index/sample2.html",
-  script: "../V20/x.js",
-  title: '',
+vid20["bankist-6"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 6, Close Account',
   vid: '20',
-  start: 'x',
-  end: 'x',
-  time: 'x'
+  start: '45',
+  end: '58',
+  time: '13'
 };
+
 
 export { vid20 }

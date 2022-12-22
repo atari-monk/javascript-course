@@ -1,5 +1,7 @@
 'use strict'
 
+import { logVar } from "../tool.js";
+
 /* 
 Let's go back to Julia and Kate's study about dogs. This time, they want to convert dog ages to human ages and calculate the average age of the dogs in their study.
 
@@ -24,4 +26,5 @@ const calcAverageHumanAge = function (ages) {
 
 const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
 const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
-console.log('avg1: ' + avg1, 'avg2: ' + avg2);
+logVar({ avg1 });
+logVar({ avg2 });

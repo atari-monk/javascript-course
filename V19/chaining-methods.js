@@ -1,8 +1,8 @@
 'use strict'
 
 import { logVar } from "../tool.js";
+import { movements } from "./data.js"
 
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 logVar({ movements });
 const eurToUsd = 1.1;
 
@@ -17,8 +17,8 @@ logVar({ totalDepositsUSD });
 //debug step
 const totalDepositsUSD2 = movements
   .filter(mov => mov < 0)
-  .map((mov, i, arr) => {
-    (()=>console.log(arr))();
+  .map((mov, _, arr) => {
+    console.log(arr);
     return mov * eurToUsd;
   })
   .reduce((acc, mov) => acc + mov, 0);

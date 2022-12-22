@@ -157,18 +157,26 @@ vid19["bankist-3"] = {
   title: 'Bankist App 3',
   vid: '19',
   start: '39',
-  end: 'x',
-  time: 'x'
+  end: '51',
+  time: '12'
 };
-vid19["v19-challenge-2"] = {
+vid19["s2-challenge-3"] = {
   page: "sample2.html",
-  script: "v19-challenge-2.js",
-  title: 'Vid 19, Challenge 2'
+  script: "../V19/s2-challenge-3.js",
+  title: 'Challenge #3',
+  vid: '19',
+  start: '51',
+  end: '55',
+  time: '4'
 };
 vid19["find-method"] = {
   page: "sample2.html",
-  script: "find-method.js",
-  title: 'Vid 19, Find Method'
+  script: "../V19/find-method.js",
+  title: 'Find Method',
+  vid: '19',
+  start: '55',
+  end: '1:02',
+  time: '7'
 };
 
 window.samples = samples;
@@ -193,17 +201,6 @@ vid18Keys.forEach((key)=>{
   setTitle(getById(key), samples[key]);
 });
 
-const vid19Keys = [
-  'reduce-method',
-  'bankist-2',
-  'reduce-method-2',
-  's2-challenge-2',
-  'chaining-methods',
-  'bankist-3'
-];
-
-console.log(Object.keys(vid19));
-
-vid19Keys.forEach((key) => {
+Object.keys(vid19).forEach((key) => {
   setTitle(getById(key), vid19[key]);
 });

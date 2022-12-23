@@ -1,7 +1,7 @@
 'use strict'
 
 import { logVar } from "../Index/tool.js";
-import { movements } from "./data.js"
+import { movements } from "../Data/s2Data.js"
 
 // The reduce Method
 logVar({movements});

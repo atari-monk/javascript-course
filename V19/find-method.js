@@ -1,7 +1,7 @@
 'use strict'
 
 import { logVar } from "../Index/tool.js";
-import { movements, accounts } from "./data.js"
+import { movements, accounts } from "../Data/s2Data.js"
 
 // The find Method
 const firstWithdrawal = movements.find(mov => mov < 0);

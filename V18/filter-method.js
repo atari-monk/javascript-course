@@ -1,8 +1,8 @@
 'use strict'
 
-// The filter Method
+import { movements } from "../Data/s2Data.js"
 
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// The filter Method
 
 const deposits = movements.filter(function (mov, i, arr) {
   return mov > 0;

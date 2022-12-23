@@ -1,6 +1,6 @@
 'use strict'
 
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+import { movements } from "../Data/s2Data.js"
 
 // The map Method
 const eurToUsd = 1.1;

@@ -61,7 +61,26 @@ vid20["flat"] = {
   title: 'Flat & FlatMap Method.',
   vid: '20',
   start: '1:13',
+  end: '1:22',
+  time: '9'
+};
+vid20["sorting"] = {
+  page: "./Index/sample2.html",
+  script: "../V20/sorting.js",
+  title: 'Sorting Arrays.',
+  vid: '20',
+  start: '1:22',
+  end: '1:35',
+  time: '13'
+};
+vid20["bankist-8"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 8, Sorting.',
+  vid: '20',
+  start: '1:35',
   end: 'x',
   time: 'x'
 };
+
 export { vid20 }

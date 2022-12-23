@@ -79,8 +79,26 @@ vid20["bankist-8"] = {
   title: 'Bankist App 8, Sorting.',
   vid: '20',
   start: '1:35',
-  end: 'x',
-  time: 'x'
+  end: '1:44',
+  time: '9'
+};
+vid20["create"] = {
+  page: "./Index/sample2.html",
+  script: "../V20/create.js",
+  title: 'Create/Fill Arrays.',
+  vid: '20',
+  start: '1:44',
+  end: '1:57',
+  time: '13'
+};
+vid20["create-2"] = {
+  page: "./Index/sample3.html",
+  script: "../V20/create-2.js",
+  title: 'Create/Fill Arrays. From DOM.',
+  vid: '20',
+  start: '1:57',
+  end: '2:05',
+  time: '8'
 };
 
 export { vid20 }

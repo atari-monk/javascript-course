@@ -1,14 +1,14 @@
 'use strict'
 
 const vid21 = [];
-vid21["x"] = {
+vid21["array-methods"] = {
   page: "./Index/sample2.html",
-  script: "../V21/x.js",
-  title: '.',
+  script: "../V21/array-methods.js",
+  title: 'Array Methods Practice',
   vid: '21',
-  start: 'x',
-  end: 'x',
-  time: 'x'
+  start: '7',
+  end: '39',
+  time: '32'
 };
 
 export { vid21 }

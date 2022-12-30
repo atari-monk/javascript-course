@@ -27,8 +27,18 @@ vid22["bankist-9"] = {
   title: 'Bankist App 9, Round loan',
   vid: '20',
   start: '31',
-  end: 'x',
-  time: 'x'
+  end: '36',
+  time: '5'
+};
+
+vid22["remainder-operator"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/remainder-operator.js",
+  title: 'The Remainder Operator',
+  vid: '22',
+  start: '36',
+  end: '47',
+  time: '11'
 };
 
 export { vid22 }

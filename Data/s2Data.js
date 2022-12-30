@@ -1,4 +1,4 @@
-'use stict'
+'use strict'
 
 const account1 = {
   owner: 'Jonas Schmedtmann',

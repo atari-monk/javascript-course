@@ -24,7 +24,7 @@ vid22["math-rounding"] = {
 vid22["bankist-9"] = {
   page: "../Bankist/index.html",
   script: "../Bankist/script.js",
-  title: 'Bankist App 9, Round loan',
+  title: 'Bankist App 9, Round currency prints',
   vid: '20',
   start: '31',
   end: '36',
@@ -39,6 +39,46 @@ vid22["remainder-operator"] = {
   start: '36',
   end: '47',
   time: '11'
+};
+
+vid22["num-sep"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/num-sep.js",
+  title: 'Numeric Separators',
+  vid: '22',
+  start: '47',
+  end: '54',
+  time: '7'
+};
+
+vid22["big-int"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/big-int.js",
+  title: 'BigInt',
+  vid: '22',
+  start: '54',
+  end: '1:05',
+  time: '11'
+};
+
+vid22["dates"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/dates.js",
+  title: 'Dates',
+  vid: '22',
+  start: '1:05',
+  end: '1:18',
+  time: '13'
+};
+
+vid22["bankist-10"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 10, Dates',
+  vid: '20',
+  start: '1:18',
+  end: 'x',
+  time: 'x'
 };
 
 export { vid22 }

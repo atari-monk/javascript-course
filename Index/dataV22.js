@@ -25,7 +25,7 @@ vid22["bankist-9"] = {
   page: "../Bankist/index.html",
   script: "../Bankist/script.js",
   title: 'Bankist App 9, Round currency prints',
-  vid: '20',
+  vid: '22',
   start: '31',
   end: '36',
   time: '5'
@@ -75,8 +75,28 @@ vid22["bankist-10"] = {
   page: "../Bankist/index.html",
   script: "../Bankist/script.js",
   title: 'Bankist App 10, Dates',
-  vid: '20',
+  vid: '22',
   start: '1:18',
+  end: '1:40',
+  time: '22'
+};
+
+vid22["dates2"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/dates.js",
+  title: 'Dates Operations',
+  vid: '22',
+  start: '1:40',
+  end: '1:47',
+  time: '7'
+};
+
+vid22["bankist-11"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 11, Dates 2',
+  vid: '22',
+  start: '1:47',
   end: 'x',
   time: 'x'
 };

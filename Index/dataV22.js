@@ -97,8 +97,8 @@ vid22["bankist-11"] = {
   title: 'Bankist App 11, Dates 2',
   vid: '22',
   start: '1:47',
-  end: 'x',
-  time: 'x'
+  end: '1:56',
+  time: '9'
 };
 
 export { vid22 }

@@ -111,14 +111,24 @@ vid22["bankist-12"] = {
   time: '17'
 };
 
+vid22["num-intl"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/num-intl.js",
+  title: 'Numbers Intl',
+  vid: '22',
+  start: '2:13',
+  end: '2:20',
+  time: '7'
+};
+
 vid22["bankist-13"] = {
   page: "../Bankist/index.html",
   script: "../Bankist/script.js",
   title: 'Bankist App 13, Numbers Intl',
   vid: '22',
-  start: '2:13',
-  end: 'x',
-  time: 'x'
+  start: '2:20',
+  end: '2:32',
+  time: '12'
 };
 
 export { vid22 }

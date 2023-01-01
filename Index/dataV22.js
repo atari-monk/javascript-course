@@ -94,11 +94,31 @@ vid22["dates2"] = {
 vid22["bankist-11"] = {
   page: "../Bankist/index.html",
   script: "../Bankist/script.js",
-  title: 'Bankist App 11, Dates 2',
+  title: 'Bankist App 11, Dates as passed days text',
   vid: '22',
   start: '1:47',
   end: '1:56',
   time: '9'
+};
+
+vid22["bankist-12"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 12, Dates Intl',
+  vid: '22',
+  start: '1:56',
+  end: '2:13',
+  time: '17'
+};
+
+vid22["bankist-13"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 13, Numbers Intl',
+  vid: '22',
+  start: '2:13',
+  end: 'x',
+  time: 'x'
 };
 
 export { vid22 }

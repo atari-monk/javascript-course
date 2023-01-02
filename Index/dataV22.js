@@ -134,9 +134,39 @@ vid22["bankist-13"] = {
 vid22["timers"] = {
   page: "./Index/sample2.html",
   script: "../V22/timers.js",
-  title: 'Timers',
+  title: 'Timers, setTimeout',
   vid: '22',
   start: '2:32',
+  end: '2:41',
+  time: '9'
+};
+
+vid22["bankist-14"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 14, Loan timer',
+  vid: '22',
+  start: '2:41',
+  end: '2:43',
+  time: '2'
+};
+
+vid22["timers2"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/timers.js",
+  title: 'Timers, setInterval',
+  vid: '22',
+  start: '2:43',
+  end: '2:46',
+  time: '3'
+};
+
+vid22["bankist-15"] = {
+  page: "../Bankist/index.html",
+  script: "../Bankist/script.js",
+  title: 'Bankist App 15, Countdown timer',
+  vid: '22',
+  start: '2:46',
   end: 'x',
   time: 'x'
 };

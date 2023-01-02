@@ -8,6 +8,7 @@ import { vid19 } from './dataV19.js';
 import { vid20 } from './dataV20.js';
 import { vid21 } from './dataV21.js';
 import { vid22 } from './dataV22.js';
+import { vid23 } from './dataV23.js';
 
 window.vid16 = vid16;
 window.vid17 = vid17;
@@ -16,6 +17,7 @@ window.vid19 = vid19;
 window.vid20 = vid20;
 window.vid21 = vid21;
 window.vid22 = vid22;
+window.vid23 = vid23;
 window.onClick = onClick;
 
 const getById = function (id) {
@@ -46,4 +48,7 @@ Object.keys(vid21).forEach((key) => {
 });
 Object.keys(vid22).forEach((key) => {
   setTitle(getById(key), vid22[key]);
+});
+Object.keys(vid23).forEach((key) => {
+  setTitle(getById(key), vid23[key]);
 });

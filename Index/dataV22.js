@@ -167,8 +167,8 @@ vid22["bankist-15"] = {
   title: 'Bankist App 15, Countdown timer',
   vid: '22',
   start: '2:46',
-  end: 'x',
-  time: 'x'
+  end: '3:14',
+  time: '28'
 };
 
 export { vid22 }

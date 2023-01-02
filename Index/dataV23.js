@@ -35,9 +35,19 @@ vid23["dom2"] = {
 vid23["bankistPage1"] = {
   page: "../BankistPage/index.html",
   script: "../BankistPage/script.js",
-  title: 'BankistPage #1',
+  title: 'BankistPage #1, Smooth Scrolling',
   vid: '23',
   start: '1:03',
+  end: '1:19',
+  time: '16'
+};
+
+vid23["dom3"] = {
+  page: "../V23/BankistPage/index.html",
+  script: "../dom3.js",
+  title: 'DOM Types of Events and Event Handlers',
+  vid: '23',
+  start: '1:19',
   end: 'x',
   time: 'x'
 };

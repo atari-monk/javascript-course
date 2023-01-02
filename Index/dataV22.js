@@ -131,4 +131,14 @@ vid22["bankist-13"] = {
   time: '12'
 };
 
+vid22["timers"] = {
+  page: "./Index/sample2.html",
+  script: "../V22/timers.js",
+  title: 'Timers',
+  vid: '22',
+  start: '2:32',
+  end: 'x',
+  time: 'x'
+};
+
 export { vid22 }

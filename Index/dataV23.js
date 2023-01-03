@@ -68,8 +68,8 @@ vid23["dom4"] = {
   title: 'Event Propagation in Practice',
   vid: '23',
   start: '1:34',
-  end: 'x',
-  time: 'x'
+  end: '1:52',
+  time: '18'
 };
 
 export { vid23 }

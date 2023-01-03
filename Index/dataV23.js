@@ -48,6 +48,26 @@ vid23["dom3"] = {
   title: 'DOM Types of Events and Event Handlers',
   vid: '23',
   start: '1:19',
+  end: '1:29',
+  time: '10'
+};
+
+vid23["theory2"] = {
+  page: "./index.html",
+  script: "./Index/script.js",
+  title: 'DOM Theory, Event Propagation',
+  vid: '23',
+  start: '1:29',
+  end: '1:34',
+  time: '5'
+};
+
+vid23["dom4"] = {
+  page: "../V23/BankistPage/index.html",
+  script: "../dom4.js",
+  title: 'Event Propagation in Practice',
+  vid: '23',
+  start: '1:34',
   end: 'x',
   time: 'x'
 };

@@ -115,9 +115,39 @@ vid23["bankistPage4"] = {
 vid23["bankistPage5"] = {
   page: "../BankistPage/index.html",
   script: "../BankistPage/script.js",
-  title: 'BankistPage #5, Sticky navigation',
+  title: 'BankistPage #5, Sticky navigation, old method',
   vid: '23',
   start: '3:08',
+  end: '3:16',
+  time: '8'
+};
+
+vid23["dom6"] = {
+  page: "../V23/BankistPage/index.html",
+  script: "../dom6.js",
+  title: 'The Intersection Observer API',
+  vid: '23',
+  start: '3:16',
+  end: '3:29',
+  time: '13'
+};
+
+vid23["bankistPage6"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #6, Sticky navigation, new method (intersection observer api)',
+  vid: '23',
+  start: '3:29',
+  end: '3:40',
+  time: '11'
+};
+
+vid23["bankistPage7"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #7, Revealing elements on scroll',
+  vid: '23',
+  start: '3:40',
   end: 'x',
   time: 'x'
 };

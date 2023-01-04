@@ -182,4 +182,14 @@ vid23["dom7"] = {
   time: '10'
 };
 
+vid23["theory3"] = {
+  page: "./index.html",
+  script: "./Index/script.js",
+  title: 'DOM Theory, Defer and async script loading',
+  vid: '23',
+  start: '5:04',
+  end: '5:17',
+  time: '13'
+};
+
 export { vid23 }

@@ -148,6 +148,26 @@ vid23["bankistPage7"] = {
   title: 'BankistPage #7, Revealing elements on scroll',
   vid: '23',
   start: '3:40',
+  end: '3:53',
+  time: '13'
+};
+
+vid23["bankistPage8"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #8, Lazy loading images',
+  vid: '23',
+  start: '3:53',
+  end: '4:11',
+  time: '19'
+};
+
+vid23["bankistPage9"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #9, Slider component',
+  vid: '23',
+  start: '4:11',
   end: 'x',
   time: 'x'
 };

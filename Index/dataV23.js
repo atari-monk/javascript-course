@@ -72,4 +72,23 @@ vid23["dom4"] = {
   time: '18'
 };
 
+vid23["bankistPage2"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #2, Event delegation: impl page navigation',
+  vid: '23',
+  start: '1:52',
+  end: '2:11',
+  time: '19'
+};
+
+vid23["dom5"] = {
+  page: "../V23/BankistPage/index.html",
+  script: "../dom5.js",
+  title: 'DOM Traversing',
+  vid: '23',
+  start: '2:11',
+  end: 'x',
+  time: 'x'
+};
 export { vid23 }

@@ -1,8 +1,8 @@
 'use strict'
 
 // DOM Traversing
-const h1 = document.querySelector('h1');
-
+const h1 = document.querySelector('#title2');
+console.log(h1);
 // Going downwards: child
 console.log(h1.querySelectorAll('.highlight'));
 console.log(h1.childNodes);

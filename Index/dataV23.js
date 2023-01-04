@@ -88,7 +88,38 @@ vid23["dom5"] = {
   title: 'DOM Traversing',
   vid: '23',
   start: '2:11',
+  end: '2:25',
+  time: '14'
+};
+
+vid23["bankistPage3"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #3, Tabbed component',
+  vid: '23',
+  start: '2:25',
+  end: '2:50',
+  time: '25'
+};
+
+vid23["bankistPage4"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #4, Passing args to event handlers',
+  vid: '23',
+  start: '2:50',
+  end: '3:08',
+  time: '18'
+};
+
+vid23["bankistPage5"] = {
+  page: "../BankistPage/index.html",
+  script: "../BankistPage/script.js",
+  title: 'BankistPage #5, Sticky navigation',
+  vid: '23',
+  start: '3:08',
   end: 'x',
   time: 'x'
 };
+
 export { vid23 }

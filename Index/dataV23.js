@@ -172,4 +172,14 @@ vid23["bankistPage9"] = {
   time: '43'
 };
 
+vid23["dom7"] = {
+  page: "../V23/dom7.html",
+  script: "../dom7.js",
+  title: 'Lifecycle DOM Events',
+  vid: '23',
+  start: '4:54',
+  end: '5:04',
+  time: '10'
+};
+
 export { vid23 }

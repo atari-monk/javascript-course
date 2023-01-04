@@ -165,11 +165,11 @@ vid23["bankistPage8"] = {
 vid23["bankistPage9"] = {
   page: "../BankistPage/index.html",
   script: "../BankistPage/script.js",
-  title: 'BankistPage #9, Slider component',
+  title: 'BankistPage #9, Slider component part 1',
   vid: '23',
   start: '4:11',
-  end: 'x',
-  time: 'x'
+  end: '4:54',
+  time: '43'
 };
 
 export { vid23 }

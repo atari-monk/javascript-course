@@ -48,8 +48,8 @@ vid24["oop3"] = {
   title: 'Prototypal Inheritance on Built-In Objects',
   vid: '24',
   start: '1:12',
-  end: 'x',
-  time: 'x'
+  end: '1:27',
+  time: '15'
 };
 
 export { vid24 }

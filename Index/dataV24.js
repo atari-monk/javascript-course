@@ -82,7 +82,7 @@ vid24["oop5"] = {
   time: '13'
 };
 
-vid24["oop6"] = {
+vid24["oop4b"] = {
   page: "./Index/sample2.html",
   script: "../V24/oop4.js",
   title: 'Static Methods',
@@ -92,7 +92,7 @@ vid24["oop6"] = {
   time: '7'
 };
 
-vid24["oop7"] = {
+vid24["oop6"] = {
   page: "./Index/sample2.html",
   script: "../V24/oop6.js",
   title: 'Object.create',
@@ -110,6 +110,66 @@ vid24["oop-ex2"] = {
   start: '2:18',
   end: '2:24',
   time: '6'
+};
+
+vid24["oop7"] = {
+  page: "./Index/sample2.html",
+  script: "../V24/oop7.js",
+  title: 'Inheritance Between "Classes": Constructor Functions',
+  vid: '24',
+  start: '2:24',
+  end: '2:45',
+  time: '21'
+};
+
+vid24["oop-ex3"] = {
+  page: "./Index/sample2.html",
+  script: "../V24/oop-ex3.js",
+  title: 'Coding Challenge #3',
+  vid: '24',
+  start: '2:45',
+  end: '2:55',
+  time: '10'
+};
+
+vid24["oop8"] = {
+  page: "./Index/sample2.html",
+  script: "../V24/oop8.js",
+  title: 'Inheritance Between "Classes": ES6 Classes',
+  vid: '24',
+  start: '2:55',
+  end: '3:06',
+  time: '11'
+};
+
+vid24["oop9"] = {
+  page: "./Index/sample2.html",
+  script: "../V24/oop9.js",
+  title: 'Inheritance Between "Classes": Object.create',
+  vid: '24',
+  start: '3:06',
+  end: '3:15',
+  time: '9'
+};
+
+vid24["oop10"] = {
+  page: "./Index/sample2.html",
+  script: "../V24/oop10.js",
+  title: 'Encapsulation',
+  vid: '24',
+  start: '3:15',
+  end: '4:0',
+  time: '45'
+};
+
+vid24["oop-ex4"] = {
+  page: "./Index/sample2.html",
+  script: "../V24/oop-ex4.js",
+  title: 'Coding Challenge #4',
+  vid: '24',
+  start: '4:0',
+  end: '4:9',
+  time: '9'
 };
 
 export { vid24 }

@@ -2,8 +2,8 @@
 
 const vid20 = [];
 vid20["bankist-4"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 4, Login',
   vid: '20',
   start: '0',
@@ -11,8 +11,8 @@ vid20["bankist-4"] = {
   time: '25'
 };
 vid20["bankist-5"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 5, Transfers',
   vid: '20',
   start: '25',
@@ -20,8 +20,8 @@ vid20["bankist-5"] = {
   time: '20'
 };
 vid20["bankist-6"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 6, Close Account, FindIndex Method.',
   vid: '20',
   start: '45',
@@ -38,8 +38,8 @@ vid20["some-every-1"] = {
   time: '4'
 };
 vid20["bankist-7"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 7, Loan, Some Method.',
   vid: '20',
   start: '1:02',
@@ -74,8 +74,8 @@ vid20["sorting"] = {
   time: '13'
 };
 vid20["bankist-8"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 8, Sorting.',
   vid: '20',
   start: '1:35',

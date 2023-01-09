@@ -13,7 +13,7 @@ vid23["theory1"] = {
 };
 
 vid23["dom1"] = {
-  page: "../V23/BankistPage/index.html",
+  page: "../V23/App-Bankist-Page/index.html",
   script: "../dom1.js",
   title: 'DOM Selecting, Creating, Deleting Elements',
   vid: '23',
@@ -23,7 +23,7 @@ vid23["dom1"] = {
 };
 
 vid23["dom2"] = {
-  page: "../V23/BankistPage/index.html",
+  page: "../V23/App-Bankist-Page/index.html",
   script: "../dom2.js",
   title: 'DOM Styles, Attributes, Classes',
   vid: '23',
@@ -33,8 +33,8 @@ vid23["dom2"] = {
 };
 
 vid23["bankistPage1"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #1, Smooth Scrolling',
   vid: '23',
   start: '1:03',
@@ -43,7 +43,7 @@ vid23["bankistPage1"] = {
 };
 
 vid23["dom3"] = {
-  page: "../V23/BankistPage/index.html",
+  page: "../V23/App-Bankist-Page/index.html",
   script: "../dom3.js",
   title: 'DOM Types of Events and Event Handlers',
   vid: '23',
@@ -63,7 +63,7 @@ vid23["theory2"] = {
 };
 
 vid23["dom4"] = {
-  page: "../V23/BankistPage/index.html",
+  page: "../V23/App-Bankist-Page/index.html",
   script: "../dom4.js",
   title: 'Event Propagation in Practice',
   vid: '23',
@@ -73,8 +73,8 @@ vid23["dom4"] = {
 };
 
 vid23["bankistPage2"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #2, Event delegation: impl page navigation',
   vid: '23',
   start: '1:52',
@@ -83,7 +83,7 @@ vid23["bankistPage2"] = {
 };
 
 vid23["dom5"] = {
-  page: "../V23/BankistPage/index.html",
+  page: "../V23/App-Bankist-Page/index.html",
   script: "../dom5.js",
   title: 'DOM Traversing',
   vid: '23',
@@ -93,8 +93,8 @@ vid23["dom5"] = {
 };
 
 vid23["bankistPage3"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #3, Tabbed component',
   vid: '23',
   start: '2:25',
@@ -103,8 +103,8 @@ vid23["bankistPage3"] = {
 };
 
 vid23["bankistPage4"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #4, Passing args to event handlers',
   vid: '23',
   start: '2:50',
@@ -113,8 +113,8 @@ vid23["bankistPage4"] = {
 };
 
 vid23["bankistPage5"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #5, Sticky navigation, old method',
   vid: '23',
   start: '3:08',
@@ -123,7 +123,7 @@ vid23["bankistPage5"] = {
 };
 
 vid23["dom6"] = {
-  page: "../V23/BankistPage/index.html",
+  page: "../V23/App-Bankist-Page/index.html",
   script: "../dom6.js",
   title: 'The Intersection Observer API',
   vid: '23',
@@ -133,8 +133,8 @@ vid23["dom6"] = {
 };
 
 vid23["bankistPage6"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #6, Sticky navigation, new method (intersection observer api)',
   vid: '23',
   start: '3:29',
@@ -143,8 +143,8 @@ vid23["bankistPage6"] = {
 };
 
 vid23["bankistPage7"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #7, Revealing elements on scroll',
   vid: '23',
   start: '3:40',
@@ -153,8 +153,8 @@ vid23["bankistPage7"] = {
 };
 
 vid23["bankistPage8"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #8, Lazy loading images',
   vid: '23',
   start: '3:53',
@@ -163,8 +163,8 @@ vid23["bankistPage8"] = {
 };
 
 vid23["bankistPage9"] = {
-  page: "../BankistPage/index.html",
-  script: "../BankistPage/script.js",
+  page: "../App-Bankist-Page/index.html",
+  script: "../App-Bankist-Page/script.js",
   title: 'BankistPage #9, Slider component part 1',
   vid: '23',
   start: '4:11',

@@ -22,8 +22,8 @@ vid22["math-rounding"] = {
 };
 
 vid22["bankist-9"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 9, Round currency prints',
   vid: '22',
   start: '31',
@@ -72,8 +72,8 @@ vid22["dates"] = {
 };
 
 vid22["bankist-10"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 10, Dates',
   vid: '22',
   start: '1:18',
@@ -92,8 +92,8 @@ vid22["dates2"] = {
 };
 
 vid22["bankist-11"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 11, Dates as passed days text',
   vid: '22',
   start: '1:47',
@@ -102,8 +102,8 @@ vid22["bankist-11"] = {
 };
 
 vid22["bankist-12"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 12, Dates Intl',
   vid: '22',
   start: '1:56',
@@ -122,8 +122,8 @@ vid22["num-intl"] = {
 };
 
 vid22["bankist-13"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 13, Numbers Intl',
   vid: '22',
   start: '2:20',
@@ -142,8 +142,8 @@ vid22["timers"] = {
 };
 
 vid22["bankist-14"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 14, Loan timer',
   vid: '22',
   start: '2:41',
@@ -162,8 +162,8 @@ vid22["timers2"] = {
 };
 
 vid22["bankist-15"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 15, Countdown timer',
   vid: '22',
   start: '2:46',

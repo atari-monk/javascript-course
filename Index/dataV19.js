@@ -11,8 +11,8 @@ vid19["reduce-method"] = {
   time: '10'
 };
 vid19["bankist-2"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 2',
   vid: '19',
   start: '10',
@@ -47,8 +47,8 @@ vid19["chaining-methods"] = {
   time: '8'
 };
 vid19["bankist-3"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 3',
   vid: '19',
   start: '39',

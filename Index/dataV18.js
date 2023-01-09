@@ -29,8 +29,8 @@ vid18["map-set-foreach"] = {
   time: '5'
 };
 vid18["bankist-app-intro"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App Intro',
   vid: '18',
   start: '43',
@@ -38,8 +38,8 @@ vid18["bankist-app-intro"] = {
   time: '10'
 };
 vid18["bankist-app-1"] = {
-  page: "../Bankist/index.html",
-  script: "../Bankist/script.js",
+  page: "../App-Bankist/index.html",
+  script: "../App-Bankist/script.js",
   title: 'Bankist App 1',
   vid: '18',
   start: '53',

@@ -88,6 +88,26 @@ vid25["geo9"] = {
   title: 'App Map Page, Code, Creating Classes for workout data',
   vid: '25',
   start: '1:56',
+  end: '2:12',
+  time: '16'
+};
+
+vid25["geo10"] = {
+  page: "../App-Map-Page/index.html",
+  script: "../App-Map-Page/script.js",
+  title: 'App Map Page, Code, Creating new workout',
+  vid: '25',
+  start: '2:12',
+  end: '2:46',
+  time: '34'
+};
+
+vid25["geo11"] = {
+  page: "../App-Map-Page/index.html",
+  script: "../App-Map-Page/script.js",
+  title: 'App Map Page, Code, Rendering workouts',
+  vid: '25',
+  start: '2:46',
   end: 'x',
   time: 'x'
 };

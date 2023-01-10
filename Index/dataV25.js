@@ -78,6 +78,16 @@ vid25["geo8"] = {
   title: 'App Map Page, Code, Refactoring for project Architecture',
   vid: '25',
   start: '1:32',
+  end: '1:56',
+  time: '24'
+};
+
+vid25["geo9"] = {
+  page: "../App-Map-Page/index.html",
+  script: "../App-Map-Page/script.js",
+  title: 'App Map Page, Code, Creating Classes for workout data',
+  vid: '25',
+  start: '1:56',
   end: 'x',
   time: 'x'
 };

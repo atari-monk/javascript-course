@@ -1,6 +1,5 @@
 'use strict';
 
-// prettier-ignore
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 const form = document.querySelector('.form');
@@ -11,50 +10,61 @@ const inputDuration = document.querySelector('.form__input--duration');
 const inputCadence = document.querySelector('.form__input--cadence');
 const inputElevation = document.querySelector('.form__input--elevation');
 
-let map, mapEvent;
+class App {
+  #map;
+  #mapEvent;
 
-if (navigator.geolocation)
-  navigator.geolocation.getCurrentPosition(function (pos) {
-    const { latitude } = pos.coords;
-    const { longitude } = pos.coords;
-    console.log(`https://www.google.pt/maps/@${latitude},${longitude}`);
+  constructor() {
+    this.#getPosition();
+    form.addEventListener('submit', this.#newWorkout.bind(this));
+    inputType.addEventListener('change', this.#toggleElevationField);
+  }
+
+  #getPosition() {
+    if (navigator.geolocation)
+      navigator.geolocation.getCurrentPosition(this.#loadMap.bind(this),
+        function () {
+          alert('Could not get your position');
+        }
+      );
+  }
+
+  #loadMap(position) {
+    const { latitude } = position.coords;
+    const { longitude } = position.coords;
+    //console.log(`https://www.google.pt/maps/@${latitude},${longitude}`);
 
     const coords = [latitude, longitude];
 
-    map = L.map('map').setView(coords, 13);
+    this.#map = L.map('map').setView(coords, 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+    }).addTo(this.#map);
 
-    map.on('click', function (mapE) {
-      mapEvent = mapE;
-      form.classList.remove('hidden');
-      inputDistance.focus();
+    this.#map.on('click', this.#showForm.bind(this));
+  }
 
+  #showForm(mapE) {
+    this.#mapEvent = mapE;
+    form.classList.remove('hidden');
+    inputDistance.focus();
+  }
 
-    });
-  },
-    function () {
-      alert('Could not get your position');
-    }
-  );
+  #toggleElevationField() {
+    inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
+    inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
+  }
 
-form.addEventListener('submit', function (e) {
-  e.preventDefault();
+  #newWorkout(e) {
+    e.preventDefault();
+    inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
+    const { lat, lng } = this.#mapEvent.latlng;
+    L.marker([lat, lng]).addTo(this.#map)
+      .bindPopup(L.popup({ maxWidth: 250, minWidth: 100, autoClose: false, closeOnClick: false, className: 'running-popup' }))
+      .setPopupContent('Workout')
+      .openPopup();
+  }
+}
 
-  inputDistance.value = inputDuration.value = inputCadence.value = inputElevation.value = '';
-
-  console.log(mapEvent);
-  const { lat, lng } = mapEvent.latlng;
-  L.marker([lat, lng]).addTo(map)
-    .bindPopup(L.popup({ maxWidth: 250, minWidth: 100, autoClose: false, closeOnClick: false, className: 'running-popup' }))
-    .setPopupContent('Workout')
-    .openPopup();
-});
-
-inputType.addEventListener('change', function () {
-  inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
-  inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
-});
-
+const app = new App();

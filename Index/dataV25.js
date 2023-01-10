@@ -58,6 +58,26 @@ vid25["geo6"] = {
   title: 'App Map Page, Code, Rendering workout input form',
   vid: '25',
   start: '1:06',
+  end: '1:22',
+  time: '16'
+};
+
+vid25["geo7"] = {
+  page: "../App-Map-Page/index.html",
+  script: "../App-Map-Page/script.js",
+  title: 'App Map Page, Theory, Project Architecture',
+  vid: '25',
+  start: '1:22',
+  end: '1:32',
+  time: '10'
+};
+
+vid25["geo8"] = {
+  page: "../App-Map-Page/index.html",
+  script: "../App-Map-Page/script.js",
+  title: 'App Map Page, Code, Refactoring for project Architecture',
+  vid: '25',
+  start: '1:32',
   end: 'x',
   time: 'x'
 };

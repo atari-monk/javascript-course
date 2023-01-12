@@ -9,6 +9,7 @@ const title = urlParams.get('title')
 document.title = title;
 
 const titleEl = document.getElementById('title');
+if(titleEl)
 titleEl.textContent = title;
 
 let script = document.createElement("script");
